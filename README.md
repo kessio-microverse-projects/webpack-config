@@ -81,3 +81,11 @@ npm install webpack webpack-cli --save-dev
   ```
   npm install --save-dev html-webpack-plugin
   ```
+ ## Step - 2
+- Add htmlpackage plugin and include it on the webpack.config.js file
+- run and build the htmlwebpack plugin using the following command
+
+```
+npm run build
+```
+- After running the build HtmlWebpackPlugin by default will generate its own index.html file, even though already there's one in the dist/ folder. This means that it will replace the initial index.html file with a newly generated one.
