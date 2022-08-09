@@ -45,4 +45,10 @@ npm install webpack webpack-cli --save-dev
 ## Step - 6
  #### Using a Configuration
 
- > As of version 4, webpack doesn't require any configuration, but most projects will need a more complex setup, which is why webpack supports a configuration file. This is much more efficient than having to manually type in a lot of commands in the terminal, so let's create one
+ > As of version 4, webpack doesn't require any configuration, but most projects will need a more complex setup, which is why webpack supports a configuration file. This is much more efficient than having to manually type in a lot of commands in the terminal, so let's create one.
+ - Run the build again but instead using our new configuration file:
+
+ ```
+ npx webpack --config webpack.config.js
+ ```
+ - A configuration file allows far more flexibility than CLI usage. We can specify loader rules, plugins, resolve options and many other enhancements this way.
