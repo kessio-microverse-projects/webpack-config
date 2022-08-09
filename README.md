@@ -126,3 +126,14 @@ module: {
     ],
   },
   ```
+
+## Acknowledgenments
+
+- [webpack's getting Started file](https://webpack.js.org/guides/getting-started/) whose instructions were used in creating the project and their notes were used to summarise and explain all the steps taken on the readme.md file.
+
+- [Setting up HtmlWebpackPlugin](https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin) whose instructions were used in the creation of this project and notes were used to summarise each step on the readme.md file
+
+- [Loading css](https://webpack.js.org/guides/asset-management/#loading-css) whose instructions were used in the creation of this project and notes were used to summarise each step on the readme.md file
+
+- [Using webpack-dev-server](https://webpack.js.org/guides/development/#using-webpack-dev-server) whose instructions were used in the creation of this project and notes were used to summarise each step on the readme.md file
+
