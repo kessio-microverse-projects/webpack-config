@@ -21,6 +21,9 @@ npm install webpack webpack-cli --save-dev
 > First we'll tweak our directory structure slightly, by creating a dist folder where we'll put the index.html
 - Bundle the lodash dependency with index.js, we'll need to install the library locally.
 - When installing a package that will be bundled into your production bundle, you should use npm install --save. If you're installing a package for development purposes (e.g. a linter, testing libraries, etc.) then you should use npm install --save-dev
+
+##### Import lodash
+> Now, since we'll be bundling our scripts, we have to update our index.html file. Let's remove the lodash <script>, as we now import it, and modify the other <script> tag to load the bundle, instead of the raw ./src file:
  
  ```
  npm install --save lodash
