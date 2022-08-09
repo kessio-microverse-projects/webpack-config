@@ -98,3 +98,5 @@ npm run build
 ```
  clean: true,
  ``
+
+ - Run npm run build to clean directory
