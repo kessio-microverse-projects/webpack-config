@@ -52,3 +52,16 @@ npm install webpack webpack-cli --save-dev
  npx webpack --config webpack.config.js
  ```
  - A configuration file allows far more flexibility than CLI usage. We can specify loader rules, plugins, resolve options and many other enhancements this way.
+
+ ## Step - 7
+
+ #### NPM Scripts
+ > Given it's not particularly fun to run a local copy of webpack from the CLI.
+ - Set up a little shortcut by adding npm script on package.json file
+ - Now the npm run build command can be used in place of the npx command used earlier. 
+ - Note that within scripts we can reference locally installed npm packages by name the same way we did with npx. 
+ - Run the command and see if your script alias works:
+  
+  ```
+  npx run build
+  ```
