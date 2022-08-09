@@ -100,3 +100,8 @@ npm run build
  ``
 
  - Run npm run build to clean directory
+
+ ## Step - 4
+ #### Modify webpack.config.js
+ - Modify webpack.config.js to point HtmlWebpackPlugin towards your template created
+ 
