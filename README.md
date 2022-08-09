@@ -15,7 +15,19 @@ npm install webpack webpack-cli --save-dev
 ## 3. Step - 3
 - Now we'll create directory with files and their contents
 
-## 4. Step - 4
+## 4. Step - 4 
+
+#### Creating a Bundle
+> First we'll tweak our directory structure slightly, by creating a dist folder where we'll put the index.html
+- Bundle the lodash dependency with index.js, we'll need to install the library locally.
+- When installing a package that will be bundled into your production bundle, you should use npm install --save. If you're installing a package for development purposes (e.g. a linter, testing libraries, etc.) then you should use npm install --save-dev
+ 
+ ```
+ npm install --save lodash
+ ```
+
+
+## 5. Step - 5
  #### Using a Configuration
 
  > As of version 4, webpack doesn't require any configuration, but most projects will need a more complex setup, which is why webpack supports a configuration file. This is much more efficient than having to manually type in a lot of commands in the terminal, so let's create one
