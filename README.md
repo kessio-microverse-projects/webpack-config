@@ -32,7 +32,15 @@ npm install webpack webpack-cli --save-dev
  npm install --save lodash
  ```
 
-## 
+## Step - 5
+
+#### Run WebPack
+>  let's run npx webpack, which will take our script at src/index.js as the entry point, and will generate dist/main.js as the output. The npx command, which ships with Node 8.2/npm 5.2.0 or higher, runs the webpack binary (./node_modules/.bin/webpack) of the webpack package we installed in the beginning.
+- Open index.html from the dist directory in your browser and, if everything went right, you should see the following text: 'Hello webpack'.
+
+```
+ npx webpack
+```
 
 ## Step - 6
  #### Using a Configuration
