@@ -127,6 +127,28 @@ module: {
   },
   ```
 
+## Using webpack-dev-server
+> The webpack-dev-server provides a rudimentary web server and the ability to use live reloading. Let's set it up:
+
+## Step - 1
+Install web dev server
+
+```
+npm install --save-dev webpack-dev-server
+```
+
+## Step - 2
+
+- Change your configuration file to tell the dev server where to look for files
+- This tells webpack-dev-server to serve the files from the dist directory on localhost:8080.
+
+## Step - 3
+> Add a script to easily run the dev server as well on the package.json file
+
+### Run 
+- Now run npm start from the command line and the browser will automatically load up the page. 
+- If any of the source files is changed and saved the web server will automatically reload after the code has been compiled. 
+
 ## Acknowledgenments
 
 - [webpack's getting Started file](https://webpack.js.org/guides/getting-started/) whose instructions were used in creating the project and their notes were used to summarise and explain all the steps taken on the readme.md file.
