@@ -103,6 +103,7 @@ npm run build
 # Loading CSS
 > In order to import a CSS file from within a JavaScript module, install and add the style-loader and css-loader to the module configuration file.
 
+## Step - 1
 - to install css loader run the following command
 
 ```
@@ -120,3 +121,7 @@ module: {
     ],
   },
   ```
+## Step - 2
+#### Setup
+- Change script on the index.html and output filename on config file from main.js to bundle.js
+- Then run and build
