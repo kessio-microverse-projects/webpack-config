@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import './styles/style.css';
 
 
  function component() {
@@ -6,7 +7,7 @@ import _ from 'lodash';
  
 
   // Lodash, now imported by this script
-   
+  element.classList.add('hello there, testing index.js');
    return element;
  }
 
