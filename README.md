@@ -89,3 +89,12 @@ npm install webpack webpack-cli --save-dev
 npm run build
 ```
 - After running the build HtmlWebpackPlugin by default will generate its own index.html file, even though already there's one in the dist/ folder. This means that it will replace the initial index.html file with a newly generated one.
+
+## Step - 3
+
+#### Cleaning up the /dist folder
+- General it's good practice to clean the /dist folder before each build, so that only used files will be generated. - That is done using output.clean option on the webpack.config.js file
+
+```
+ clean: true,
+ ``
