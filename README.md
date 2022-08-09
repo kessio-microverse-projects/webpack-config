@@ -65,3 +65,17 @@ npm install webpack webpack-cli --save-dev
   ```
   npx run build
   ```
+
+  # Setting up HtmlWebpackPlugin
+  > You already know that all the distribution files will be placed in /dist directory. You also know that you should not create files manually in the /dist folder, as there's a risk they will be overwritten. Therefore, install the HtmlWebpackPlugin to automatically create the index.html file in the /dist directory.
+
+#### Instructions followed
+- When creating HTMLWebpackPlugin, [setting up HtmlWebpackPlugin](https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin) intructions and notes were used in setting up this project.
+
+  ## Step - 1
+
+  #### Install webpack.config.js file:
+
+  ```
+  npm install --save-dev html-webpack-plugin
+  ```
