@@ -94,14 +94,8 @@ npm run build
 
 #### Cleaning up the /dist folder
 - General it's good practice to clean the /dist folder before each build, so that only used files will be generated. - That is done using output.clean option on the webpack.config.js file
-
-```
- clean: true,
- ``
-
  - Run npm run build to clean directory
 
  ## Step - 4
  #### Modify webpack.config.js
  - Modify webpack.config.js to point HtmlWebpackPlugin towards your template created
- 
