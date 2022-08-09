@@ -99,3 +99,24 @@ npm run build
  ## Step - 4
  #### Modify webpack.config.js
  - Modify webpack.config.js to point HtmlWebpackPlugin towards your template created
+
+# Loading CSS
+> In order to import a CSS file from within a JavaScript module, install and add the style-loader and css-loader to the module configuration file.
+
+- to install css loader run the following command
+
+```
+npm install --save-dev style-loader css-loader
+```
+- Add style loader to module config file
+
+```
+module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
+  ```
